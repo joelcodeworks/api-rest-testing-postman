@@ -64,3 +64,12 @@ La API utilizada es una API pública simulada (no existe persistencia real de da
 ## 📎 Tipo de proyecto
 
 Testing Manual de API – Proyecto de portafolio QA Junior
+
+---
+
+## 📂 Estructura del repositorio
+
+- README.md → Descripción del proyecto y objetivos.
+- Documentación de pruebas → Casos GET, POST y DELETE documentados.
+- Capturas → Evidencia visual de las ejecuciones en Postman.
+- Conclusión → Observaciones y aprendizajes obtenidos.
