@@ -43,6 +43,24 @@ La API utilizada es una API pública simulada (no existe persistencia real de da
 - Eliminación de usuario no existente (403 con comportamiento inconsistente).
 
 ---
+## 🧪 Escenarios de testing ejecutados
+
+Los endpoints del backend fueron probados manualmente utilizando Postman.
+
+Escenarios validados:
+
+- Creación de usuarios mediante POST /users
+- Consulta de usuarios mediante GET /users
+- Consulta de usuario específico GET /users/:id
+- Actualización de datos de usuario mediante PUT /users/:id
+- Eliminación de usuarios mediante DELETE /users/:id
+
+También se validaron escenarios negativos:
+
+- Consulta de usuario inexistente (404 Not Found)
+- Actualización de usuario inexistente
+- Eliminación de usuario inexistente
+- Errores de formato JSON en las peticiones
 
 ## 📌 Observaciones
 
