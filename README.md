@@ -1,5 +1,51 @@
 # API REST Testing Project (Postman)
 
+# API REST de Usuarios (Node.js + SQLite)
+
+API REST desarrollada con Node.js y Express que permite gestionar usuarios mediante operaciones CRUD completas con persistencia de datos utilizando SQLite.
+
+## Tecnologías utilizadas
+
+- Node.js
+- Express
+- SQLite
+- Postman (para pruebas de la API)
+
+## Endpoints de la API
+
+| Método | Endpoint | Descripción |
+|------|------|------|
+| GET | /users | Obtener todos los usuarios |
+| GET | /users/:id | Obtener un usuario por ID |
+| POST | /users | Crear un nuevo usuario |
+| PUT | /users/:id | Actualizar un usuario |
+| DELETE | /users/:id | Eliminar un usuario |
+| GET | /health | Comprobar el estado de la API |
+
+## Cómo ejecutar el proyecto
+
+1. Instalar dependencias
+npm install
+
+3. Iniciar el servidor
+node server.js
+
+El servidor se ejecutará en:
+
+http://localhost:3000
+
+## Pruebas de la API
+
+Los endpoints fueron probados utilizando Postman para validar respuestas HTTP, códigos de estado y formato JSON.
+
+## Aprendizajes del proyecto
+
+- Creación de una API REST con Node.js y Express
+- Implementación de operaciones CRUD
+- Uso de SQLite para persistencia de datos
+- Pruebas de endpoints con Postman
+- Implementación de middleware (logging)
+- Identificación y depuración de errores en JSON y respuestas HTTP
 ## 📖 Revisión del proyecto
 
 Este proyecto demuestra la práctica de testing de una API REST simulada utilizando Postman.  
