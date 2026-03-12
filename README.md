@@ -1,5 +1,3 @@
-# API REST Testing Project (Postman)
-
 # API REST de Usuarios (Node.js + SQLite)
 
 API REST desarrollada con Node.js y Express que permite gestionar usuarios mediante operaciones CRUD completas con persistencia de datos utilizando SQLite.
