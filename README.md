@@ -138,6 +138,7 @@ Testing Manual de API – Proyecto de portafolio QA Junior
 
 ## Estructura del proyecto
 
+API REST de Usuarios (Node.js + SQLite)
 │
 ├── db
 │   └── database.sqlite
