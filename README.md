@@ -135,3 +135,16 @@ Testing Manual de API – Proyecto de portafolio QA Junior
 - Documentación de pruebas → Casos GET, POST y DELETE documentados.
 - Capturas → Evidencia visual de las ejecuciones en Postman.
 - Conclusión → Observaciones y aprendizajes obtenidos.
+
+## Estructura del proyecto
+
+│
+├── db
+│   └── database.sqlite
+│
+├── middleware
+│   └── logger.js
+│
+├── server.js
+├── README.md
+└── .gitignore
