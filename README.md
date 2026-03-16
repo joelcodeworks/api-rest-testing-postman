@@ -1,5 +1,10 @@
 # API REST de Usuarios (Node.js + SQLite)
 
+![Node.js](https://img.shields.io/badge/Node.js-Backend-green)
+![SQLite](https://img.shields.io/badge/SQLite-Database-blue)
+![Postman](https://img.shields.io/badge/Postman-API_Testing-orange)
+![REST API](https://img.shields.io/badge/API-REST-lightgrey)
+
 API REST desarrollada con Node.js y Express que permite gestionar usuarios mediante operaciones CRUD completas con persistencia de datos utilizando SQLite.
 
 ## Tecnologías utilizadas
